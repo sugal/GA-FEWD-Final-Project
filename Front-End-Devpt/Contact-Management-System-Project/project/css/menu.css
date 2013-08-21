@@ -1,0 +1,279 @@
+
+/*structure ----------*/
+
+
+#menulist, #menulist ul {
+	list-style: none;
+
+}
+
+#menulist {
+	float: left;
+}
+	
+
+#menulist > li {
+	float: left;
+}
+
+#menulist li a {
+	display: block;
+	line-height: 2.75em;
+	padding: 0 20px;
+	text-decoration: none;
+
+}
+
+
+#menulist ul {
+
+	position: absolute;
+	display: none;
+	z-index: 999;	
+
+}
+
+#menulist ul li a {
+	
+	width: 130px;
+
+}
+
+#menulist li:hover ul.noJS {
+	display: block;
+}
+
+/* main menu 
+------------------------------*/
+
+#menulist {
+	font-family: Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#menulist > li > a {
+	color: #ffffff;
+	font-weight: bold;
+
+}
+
+
+#menulist > li:hover > a {
+
+	background: #3f3f3f;
+	border-radius: 5px;
+
+}
+
+/*sub menu 
+----------------------------------*/
+#menulist ul {
+	background: #3f3f3f;
+	border-radius: 5px;
+	
+	
+}
+
+#menulist ul li a {
+color: #fff;
+
+
+}
+
+#menulist ul li:hover a {
+	background: #ffc97c;
+	color: #ff33ff;
+	border-radius: 5px;
+
+}
+
+/*Accordion side menu --------------*/
+
+
+.accordion {
+	display: inline-block;
+    background: #A4A4A4;
+    border: 1px solid #A4A4A4;
+    border-radius: 5px;
+    padding-left: 0.25em;
+    padding-top: 0.5em;
+    margin: 0 auto;
+    height: 310px;
+}
+
+
+.accordion .section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 0 1em;  
+    background: #000;
+    color: #ffffff;
+    width: 170px;
+}
+
+.accordion h3 a {
+    display: block;
+    font-weight: normal;
+    padding: 1em 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.accordion h3 a:active {
+	color:#ffff00;
+}
+
+.accordion h3 a:hover {
+    text-decoration: none;
+}
+
+.accordion h3 + div {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+}
+
+.accordion :target h3 a {
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.accordion :target h3 + div {
+    height: auto;
+}
+
+.accordion ul {
+	list-style-type: none;
+	width: 120px;
+}
+
+.accordion ul li {
+	float: left;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 2;
+margin-left: 10px;
+
+}
+
+.accordion ul li a {
+	
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.accordion ul li a:hover,  .accordion ul li a:active {
+	color:#ffff00;
+}
+
+/*Accordion side menu end ------ */
+
+
+
+/*css spirite -----------*/
+
+
+
+#socialmedia{
+
+	z-index: 1;
+	margin-left: 40px;
+	margin-top: 5px;
+}
+
+#socialmedia {
+	
+	
+}
+
+#socialmedia ul#social li {
+	float: left;
+	height: 48px;
+	padding:0;
+	
+}
+
+#socialmedia ul#social li a {
+	display: block;
+	text-indent: -9999em;
+	
+	}
+
+#socialmedia ul#social li.tw, #socialmedia ul#social li.fb, #socialmedia ul#social li.ln, #socialmedia ul#social li.bg {
+	width: 46px;
+
+}
+
+
+#socialmedia ul#social li.tumb {
+	width: 166px;
+}
+
+#socialmedia ul li.tw {
+
+	background:url("../images/sociallogo1.png") no-repeat 0 0px; 
+
+}
+
+#socialmedia ul li.fb {
+ 	background:url("../images/sociallogo1.png") no-repeat -52px 0px;
+
+}
+
+#socialmedia ul li.ln {
+
+background:url("../images/sociallogo1.png") no-repeat -100px 0px;
+
+}
+
+#socialmedia ul li.bg {
+background:url("../images/sociallogo1.png") no-repeat -144px 0px;
+
+
+}
+
+#socialmedia ul li.tumb {
+background:url("../images/sociallogo1.png") no-repeat -192px 0px;
+
+}
+
+
+#socialmedia ul li.tw:hover {
+
+	background:url("../images/sociallogo1.png") no-repeat 0 -53px; 
+
+}
+
+#socialmedia ul li.fb:hover {
+ 	background:url("../images/sociallogo1.png") no-repeat -52px -53px;
+
+}
+
+#socialmedia ul li.ln:hover {
+
+background:url("../images/sociallogo1.png") no-repeat -100px -53px;
+
+}
+
+#socialmedia ul li.bg:hover {
+background:url("../images/sociallogo1.png") no-repeat -144px -53px;
+
+
+}
+
+#socialmedia ul li.tumb:hover {
+background:url("../images/sociallogo1.png") no-repeat -192px -53px;
+
+}
+
+/* spirite end----*/
+
+

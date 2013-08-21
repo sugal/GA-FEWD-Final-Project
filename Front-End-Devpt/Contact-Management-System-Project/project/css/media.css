@@ -1,0 +1,402 @@
+
+
+@media only screen and (max-width: 480px) {
+
+
+#container {
+	height: 900;
+	
+}
+
+#logo {
+	width: 210px;
+	background:url('../images/logo-small.png') no-repeat;
+
+}
+
+#fluid-banner {
+
+	
+    width: 98%;
+    height: 200px;
+    
+}
+
+li#bannerli1, li#bannerli2, li#bannerli3, li#bannerli4 {
+    
+	height: 200px; 
+	width: 230px;
+	
+
+
+}
+
+.banner ul li#bannerli1 {
+
+	background: url('../images/cms-small.png'); 
+}
+
+.banner ul li#bannerli2 {
+
+	background-image: url('../images/x-platform-small.png') ;
+
+}
+
+
+
+.banner ul li#bannerli3 {
+
+	background:url('../images/social-network-small.png');
+
+
+}
+
+.banner ul li#bannerli1, .banner ul li#bannerli2, .banner ul li#bannerli3 {
+	
+	background-position: center;
+    background-repeat: no-repeat; 
+    
+}
+
+
+#main-topic1 {
+	
+	font-size: 25px;
+	color: black;
+	margin-left: 45px;
+	margin-top: 30px;
+	
+}
+
+#main-topic {
+	
+	font-size: 20px;
+	margin-top: 39px;
+	margin-left:55px;
+
+}
+
+#bannerlitext1 {
+	
+	font-size: 20px;
+	margin-top: 45px;
+    margin-left: 50px;
+
+}
+#bannerlitext2 {
+
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 5px;
+	
+	
+}
+
+#bannerlitext2sub1 {
+
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 20px;
+	
+	
+}
+
+#bannerlitext2sub2 {
+	
+	font-size: 20px;
+	margin-top: 80px;
+	margin-left: 75px;	
+}
+
+#bannerlitext3  {
+
+	font-size: 25px;
+	margin-top: 130px;
+	margin-left: 175px;
+	
+}
+
+
+#bannerlitext4 {
+
+    font-size: 20px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	margin-left: 25px;
+}
+
+
+iframe {
+
+ 	display: block;
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    border: 0;
+    clear: right;
+ }
+
+
+#bannerlitext4sub1 {
+
+		
+	font-size: 20px;
+	margin-top: -5px;
+	margin-left: 200px;
+
+}
+
+#fluid-rows {
+
+	display: block;
+	position: absolute;
+	width: 280px;
+	height: 300px;
+	margin-top: 240px;
+	margin-left: 10px;
+	
+}
+.span2 {
+	width: 280px;
+	}
+
+#menulist li a {
+	display: block;
+	line-height: 1.5em;
+	padding: 10px 5px;
+	text-decoration: none;
+
+}
+
+
+#menulist ul li a {
+	
+	width: 100px;
+
+}
+
+#menulist {
+	font-family: Arial;
+	font-size: 10px;
+
+}
+
+#menulist .noJs li a {
+	padding: 5px;
+	line-height: 1em;
+}
+
+.span3 {
+
+	width: 90px;
+
+
+}
+
+h2 {
+
+	font-size: 12px;
+	line-height: 1;
+}
+
+.featurelistli {
+	
+	font-size: 10px;
+	line-height: 1.5;
+}
+
+.span4 {
+	margin-left: 10px;
+	
+}
+
+#mobilectrimg {
+	height: 115px;
+	width: 121px;
+}
+
+h3#imgctrtext1 {
+
+	font-size: 11px;
+	margin-left: 5px;
+}
+
+h3#imgctrtext2 {
+	font-size: 11px;
+	margin-left: 10px
+
+}
+
+.span5 {
+
+	width: 161px;
+}
+
+#degreetext {
+	
+	font-size: 12px;
+	line-height: 1.5;
+	
+} 
+
+
+#completeview {
+	height: 125px;
+	width: 131px;
+
+}
+
+.span6 {
+	
+	width: 260px;
+	margin-right: 5px;
+}
+
+#footer {
+
+	margin-top: 850px;
+	height: 190px;
+}
+
+.span7 {
+
+    margin-left: 25px;
+    width: 50px;
+}
+
+#locations {
+	margin-left: 20px;
+	
+}
+#footerlocationul {
+	margin-top: 0;
+	width: 90px;
+}
+
+#footerlocationul .locationli {
+	
+	margin-left: 3px;
+	font-size: 10px;
+	line-height: 2;
+
+}
+
+.span8 {
+    
+   
+margin-left: 45px;
+}
+
+.footertext p {
+	
+	font-size: 10px;
+	line-height: 0;
+}
+
+#copyline {
+	padding-top: 30px;
+	margin-left: 25px;
+	font-size: 10px;
+}
+
+.bannertext-about {
+
+background: url('../images/inner-about-small.png') no-repeat;
+
+
+}
+.bannertext-contact {
+
+background: url('../images/contact-us-small.png') no-repeat;
+height: 370px;
+
+}
+#inTurnFadingTextG{
+
+width: 300px;
+margin-left: 10px;
+
+}
+
+.inTurnFadingTextG{
+
+font-size:18px;
+line-height: 1;
+padding-top: 10px;
+}
+
+.accordion {
+	
+padding-left: 0.15em;
+padding-top: 0.25em;
+margin: 0 auto;
+height: 290px;
+}
+
+
+.accordion .section {
+	margin-right: 5px;
+    padding: 0 1em;  
+	width: 110px;
+}
+
+
+.accordion ul {
+	
+	width: 95px;
+}
+
+.accordion ul li {
+	
+	font-size: 10px;
+	margin-left: 0;
+
+}
+
+.span10 {
+	margin-left: -150px;
+	height: 350px;
+	overflow: scroll;
+}
+
+
+#aboutctr:before {
+	width: 200px;
+}
+#aboutctr h1 {
+
+	width: 155px;
+	font-size: 12px;
+	line-height: 2;
+	padding-bottom: 20px;
+}
+
+#aboutctr p {
+	
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 1.5;
+	padding-bottom: 1.5em;
+	
+}
+#footerinner {
+
+	margin-top: 700px;
+	height: 50px;  
+}
+
+form #contact-form {
+	
+	
+	width: 180px;
+	
+}
+
+#userName, #userAge, #userEmail, #userNumber, #web, #userComments {
+	width: 150px;
+	margin-right: 10px;
+}
+
+}
+
